@@ -1,0 +1,119 @@
+Build Error
+Failed to compile
+
+Next.js (14.2.31) is outdated (learn more)
+./Habit Tracking Application/components/ui/input.tsx
+Error: 
+  × the name `cn` is defined multiple times
+    ╭─[/home/runner/workspace/Habit Tracking Application/components/ui/input.tsx:1:1]
+  1 │ import * as React from "react";
+  2 │ 
+  3 │ import { cn } from "./utils";
+    ·          ─┬
+    ·           ╰── previous definition of `cn` here
+  4 │ 
+  5 │ function Input({ className, type, ...props }: React.ComponentProps<"input">) {
+  6 │   return (
+  7 │     <input
+  8 │       type={type}
+  9 │       data-slot="input"
+ 10 │       className={cn(
+ 11 │         "file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 w-full min-w-0 rounded-md border px-3 py-1 text-base bg-input-background transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm",
+ 12 │         "focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]",
+ 13 │         "aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
+ 14 │         className,
+ 15 │       )}
+ 16 │       {...props}
+ 17 │     />
+ 18 │   );
+ 19 │ }
+ 20 │ 
+ 21 │ export { Input };
+ 22 │ import * as React from "react";
+ 23 │ 
+ 24 │ import { cn } from "./utils";
+    ·          ─┬
+    ·           ╰── `cn` redefined here
+ 25 │ 
+ 26 │ export interface InputProps
+ 27 │   extends React.InputHTMLAttributes<HTMLInputElement> {}
+    ╰────
+
+  × the name `Input` is defined multiple times
+    ╭─[/home/runner/workspace/Habit Tracking Application/components/ui/input.tsx:2:1]
+  2 │ 
+  3 │ import { cn } from "./utils";
+  4 │ 
+  5 │ function Input({ className, type, ...props }: React.ComponentProps<"input">) {
+    ·          ──┬──
+    ·            ╰── previous definition of `Input` here
+  6 │   return (
+  7 │     <input
+  8 │       type={type}
+  9 │       data-slot="input"
+ 10 │       className={cn(
+ 11 │         "file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 w-full min-w-0 rounded-md border px-3 py-1 text-base bg-input-background transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm",
+ 12 │         "focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]",
+ 13 │         "aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
+ 14 │         className,
+ 15 │       )}
+ 16 │       {...props}
+ 17 │     />
+ 18 │   );
+ 19 │ }
+ 20 │ 
+ 21 │ export { Input };
+ 22 │ import * as React from "react";
+ 23 │ 
+ 24 │ import { cn } from "./utils";
+ 25 │ 
+ 26 │ export interface InputProps
+ 27 │   extends React.InputHTMLAttributes<HTMLInputElement> {}
+ 28 │ 
+ 29 │ const Input = React.forwardRef<HTMLInputElement, InputProps>(
+    ·       ──┬──
+    ·         ╰── `Input` redefined here
+ 30 │   ({ className, type, ...props }, ref) => {
+ 31 │     return (
+ 32 │       <input
+    ╰────
+
+  × the name `Input` is exported multiple times
+    ╭─[/home/runner/workspace/Habit Tracking Application/components/ui/input.tsx:18:1]
+ 18 │   );
+ 19 │ }
+ 20 │ 
+ 21 │ export { Input };
+    ·          ──┬──
+    ·            ╰── previous exported here
+ 22 │ import * as React from "react";
+ 23 │ 
+ 24 │ import { cn } from "./utils";
+ 25 │ 
+ 26 │ export interface InputProps
+ 27 │   extends React.InputHTMLAttributes<HTMLInputElement> {}
+ 28 │ 
+ 29 │ const Input = React.forwardRef<HTMLInputElement, InputProps>(
+ 30 │   ({ className, type, ...props }, ref) => {
+ 31 │     return (
+ 32 │       <input
+ 33 │         type={type}
+ 34 │         className={cn(
+ 35 │           "flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50",
+ 36 │           className
+ 37 │         )}
+ 38 │         ref={ref}
+ 39 │         {...props}
+ 40 │       />
+ 41 │     );
+ 42 │   }
+ 43 │ );
+ 44 │ Input.displayName = "Input";
+ 45 │ 
+ 46 │ export { Input };
+    ·          ──┬──
+    ·            ╰── exported more than once
+    ╰────
+
+Error: 
+  ☞ Exported identifiers must be unique

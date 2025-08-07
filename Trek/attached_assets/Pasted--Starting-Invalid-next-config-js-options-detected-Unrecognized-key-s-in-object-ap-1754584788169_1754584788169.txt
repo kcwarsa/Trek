@@ -1,0 +1,56 @@
+✓ Starting...
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 1725ms
+ ○ Compiling / ...
+ ⨯ ./Habit Tracking Application/components/MobileHabitTracker.tsx:31:1
+Module not found: Can't resolve 'motion/react'
+  29 | import { NotificationPanel } from "./mobile/NotificationPanel";
+  30 | import { ParticleBackground } from "./ParticleBackground";
+> 31 | import { motion, AnimatePresence } from "motion/react";
+     | ^
+  32 |
+  33 | export interface Habit {
+  34 |   id: string;
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./pages/index.tsx
+ ⨯ ./Habit Tracking Application/components/MobileHabitTracker.tsx:31:1
+Module not found: Can't resolve 'motion/react'
+  29 | import { NotificationPanel } from "./mobile/NotificationPanel";
+  30 | import { ParticleBackground } from "./ParticleBackground";
+> 31 | import { motion, AnimatePresence } from "motion/react";
+     | ^
+  32 |
+  33 | export interface Habit {
+  34 |   id: string;
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./pages/index.tsx
+ ⨯ ./Habit Tracking Application/components/MobileHabitTracker.tsx:31:1
+Module not found: Can't resolve 'motion/react'
+  29 | import { NotificationPanel } from "./mobile/NotificationPanel";
+  30 | import { ParticleBackground } from "./ParticleBackground";
+> 31 | import { motion, AnimatePresence } from "motion/react";
+     | ^
+  32 |
+  33 | export interface Habit {
+  34 |   id: string;
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./pages/index.tsx
+ GET / 500 in 26810ms
+ ⚠ Cross origin request detected from 60e4cae3-fc46-4505-b631-868b0cccdda3-00-6hzgni17t533.picard.replit.dev to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins

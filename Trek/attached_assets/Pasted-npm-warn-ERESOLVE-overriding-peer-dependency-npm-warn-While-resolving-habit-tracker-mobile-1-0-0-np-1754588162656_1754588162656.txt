@@ -1,0 +1,161 @@
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: habit-tracker-mobile@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"19.0.0" from the root project
+npm warn   23 more (@callstack/react-theme-provider, @expo/vector-icons, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.73.6
+npm warn node_modules/react-native
+npm warn   react-native@"0.79.5" from the root project
+npm warn   20 more (@expo/vector-icons, @react-native/virtualized-lists, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: habit-tracker-mobile@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"19.0.0" from the root project
+npm warn   23 more (@callstack/react-theme-provider, @expo/vector-icons, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.73.6
+npm warn node_modules/react-native
+npm warn   react-native@"0.79.5" from the root project
+npm warn   20 more (@expo/vector-icons, @react-native/virtualized-lists, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: habit-tracker-mobile@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"19.0.0" from the root project
+npm warn   23 more (@callstack/react-theme-provider, @expo/vector-icons, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.73.6
+npm warn node_modules/react-native
+npm warn   react-native@"0.79.5" from the root project
+npm warn   20 more (@expo/vector-icons, @react-native/virtualized-lists, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: habit-tracker-mobile@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"19.0.0" from the root project
+npm warn   23 more (@callstack/react-theme-provider, @expo/vector-icons, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.73.6
+npm warn node_modules/react-native
+npm warn   react-native@"0.79.5" from the root project
+npm warn   20 more (@expo/vector-icons, @react-native/virtualized-lists, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: habit-tracker-mobile@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"19.0.0" from the root project
+npm warn   23 more (@callstack/react-theme-provider, @expo/vector-icons, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.73.6
+npm warn node_modules/react-native
+npm warn   react-native@"0.79.5" from the root project
+npm warn   20 more (@expo/vector-icons, @react-native/virtualized-lists, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: habit-tracker-mobile@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"19.0.0" from the root project
+npm warn   23 more (@callstack/react-theme-provider, @expo/vector-icons, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.73.6
+npm warn node_modules/react-native
+npm warn   react-native@"0.79.5" from the root project
+npm warn   20 more (@expo/vector-icons, @react-native/virtualized-lists, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: habit-tracker-mobile@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"19.0.0" from the root project
+npm warn   23 more (@callstack/react-theme-provider, @expo/vector-icons, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.73.6
+npm warn node_modules/react-native
+npm warn   react-native@"0.79.5" from the root project
+npm warn   20 more (@expo/vector-icons, @react-native/virtualized-lists, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: habit-tracker-mobile@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"19.0.0" from the root project
+npm warn   23 more (@callstack/react-theme-provider, @expo/vector-icons, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.73.6
+npm warn node_modules/react-native
+npm warn   react-native@"0.79.5" from the root project
+npm warn   20 more (@expo/vector-icons, @react-native/virtualized-lists, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: habit-tracker-mobile@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"19.0.0" from the root project
+npm warn   23 more (@callstack/react-theme-provider, @expo/vector-icons, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.73.6
+npm warn node_modules/react-native
+npm warn   react-native@"0.79.5" from the root project
+npm warn   20 more (@expo/vector-icons, @react-native/virtualized-lists, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: habit-tracker-mobile@1.0.0
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"19.0.0" from the root project
+npm warn   23 more (@callstack/react-theme-provider, @expo/vector-icons, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"18.2.0" from react-native@0.73.6
+npm warn node_modules/react-native
+npm warn   react-native@"0.79.5" from the root project
+npm warn   20 more (@expo/vector-icons, @react-native/virtualized-lists, ...)
+npm warn ERESOLVE overriding peer dependency
+npm error code ERESOLVE
+npm error ERESOLVE could not resolve
+npm error
+npm error While resolving: react-native@0.79.5
+npm error Found: @types/react@18.2.79
+npm error node_modules/@types/react
+npm error   peerOptional @types/react@"^19.0.0" from @react-native/virtualized-lists@0.79.5
+npm error   node_modules/react-native/node_modules/@react-native/virtualized-lists
+npm error     @react-native/virtualized-lists@"0.79.5" from react-native@0.79.5
+npm error     node_modules/react-native
+npm error       react-native@"0.79.5" from the root project
+npm error       20 more (@react-navigation/bottom-tabs, ...)
+npm error
+npm error Could not resolve dependency:
+npm error peerOptional @types/react@"^19.0.0" from react-native@0.79.5
+npm error node_modules/react-native
+npm error   react-native@"0.79.5" from the root project
+npm error   peer react-native@"*" from @react-navigation/bottom-tabs@6.6.1
+npm error   node_modules/@react-navigation/bottom-tabs
+npm error     @react-navigation/bottom-tabs@"^6.5.11" from the root project
+npm error   19 more (@react-navigation/native, @react-navigation/stack, ...)
+npm error
+npm error Conflicting peer dependency: @types/react@19.1.9
+npm error node_modules/@types/react
+npm error   peerOptional @types/react@"^19.0.0" from react-native@0.79.5
+npm error   node_modules/react-native
+npm error     react-native@"0.79.5" from the root project
+npm error     peer react-native@"*" from @react-navigation/bottom-tabs@6.6.1
+npm error     node_modules/@react-navigation/bottom-tabs
+npm error       @react-navigation/bottom-tabs@"^6.5.11" from the root project
+npm error     19 more (@react-navigation/native, @react-navigation/stack, ...)
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error /home/runner/.npm/_logs/2025-08-07T17_35_32_757Z-eresolve-report.txt
+npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2025-08-07T17_35_32_757Z-debug-0.log
